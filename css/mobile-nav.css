@@ -1,0 +1,54 @@
+.no-scroll {
+	overflow-y: hidden;
+	touch-action: none;
+}
+
+.mobile-nav-fade {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(19 29 34 / 70%);
+	z-index: 98;
+	opacity: 0;
+	transition: opacity 0.2s ease-in;
+	pointer-events: none;
+}
+
+.mobile-nav-fade_open {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.mobile-nav {
+	position: fixed;
+	top: 0;
+	right: -320px;
+	width: 320px;
+	height: 100%;
+	z-index: 99;
+	padding: 50px 40px;
+	background-color: #fff;
+	transition: all 0.4s ease-in;
+}
+
+.mobile-nav_open {
+	right: 0;
+}
+
+.mobile-nav a {
+	color: var(--color);
+}
+
+.mobile-nav a:hover, .mobile-nav a:active {
+	text-decoration: underline;
+}
+
+.mobile-nav__list {
+	display: grid;
+	gap: 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
