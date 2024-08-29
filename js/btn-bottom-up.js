@@ -4,7 +4,12 @@ const header = document.querySelector('.header');
 const footer = document.querySelector('.footer');
 
 window.addEventListener('scroll', turnBtn);
-btnBottomUp.addEventListener('click', scrollPage);
+
+if (window.innerWidth > 680) {
+  btnBottomUp.addEventListener('click', scrollPage);
+} else {
+  btnBottomUp.addEventListener('touchstart', scrollPage);
+}
 
 let position = window.scrollY;
 
