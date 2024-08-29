@@ -250,6 +250,12 @@
       padding: 0 26px;
       height: 51px;
    }
+	 .btn__bottom-up:hover {
+		background-color: #F1EBE4;
+ 	}
+	 .btn__bottom-up:active {
+		background-color: #d6c9db;
+	 }
    .section-bestsellers {
       margin-bottom: 50px;
    }
