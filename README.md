@@ -1,34 +1,31 @@
 # Studio Polly
 
-This is the website of a ceramics studio that creates items such as vases and dishware. It features a responsive design and includes interactive elements powered by JavaScript .
+Это веб-сайт студии керамики, которая создает вазы и посуду. Он отличается адаптивным дизайном и включает интерактивные элементы, работающие на JavaScript.
 
-## Website
+## Веб-сайт
 
-You can view the site online [here](https://afkeomre.github.io/Studio-Polly/#).
+Вы можете посмотреть сайт онлайн [здесь](https://afkeomre.github.io/Studio-Polly/#).
 
-##  Features
+## Особенности
 
-- **Fixed header** - the top navigation bar remains visible as you scroll down the page.
-- **Burger menu for mobile devices** - on mobile devices, the menu is hidden behind a "burger" icon and expands when clicked.
-- **Banner animation** - there's a banner with two large text lines moving in opposite directions, creating a dynamic visual effect. 
-- **"Bottom/Up" button** - a button is always visible on the page and changes its icon based on scroll direction:
-  - If you scroll to the bottom, the arrow points up, allowing you to return to the top.
-  - If you're at the top, the arrow points down, letting you scroll to the bottom.
-  - The arrow also flips as you change the scroll direction.
+- **Фиксированный хедер** - верхняя панель навигации остается зафиксированной на странице при прокрутке вниз.
+- **Бургер-меню для мобильных устройств** - на мобильных устройствах меню скрыто за значком бургера и раскрывается при нажатии.
+- **Анимация баннера** - баннер с двумя большими текстовыми линиями, движущимися в противоположных направлениях, создает динамичный визуальный эффект. 
+- **Кнопка "Bottom/Up"** - кнопка всегда видна на странице и меняет положение стрелки в зависимости от направления скролла.
  
-## Technologies Used
+## Используемые технологии
 
-- **HTML** - for the structure of the website.
-- **CSS** - for styling the elements, including responsive design and banner animation.
-- **JavaScript** - for interactive features like the burger menu and the "Bottom/Up" button.
+- **HTML** - для структуры веб-сайта.
+- **CSS** - для стилизации элементов, включая адаптивный дизайн и анимацию баннеров.
+- **JavaScript** - для интерактивных функций, таких как бургер-меню и кнопка "Bottom/Up".
 
-## How to Run the Project
+## Как запустить проект
 
-1. Clone the repository:
+1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Afkeomre/Studio-Polly.git
-2. Open the `index.html` file in your browser.
+2. Откройте файл `index.html` в вашем браузере.
 
-## Author
-This website was created by a beginner web developer [Irina Voronkova](https://github.com/Afkeomre) as a project. Feedback and suggestions are welcome!
+## Автор
+Этот веб-сайт был создан начинающим веб-разработчиком [Ириной Воронковой](https://github.com/Afkeomre) в качестве пет-проекта. Обратная связь приветствуется!
  
